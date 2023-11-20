@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TaskTrackerFrontEnd/static/css/main.5e4760d6.css",
-    "main.js": "/TaskTrackerFrontEnd/static/js/main.27dea178.js",
+    "main.js": "/TaskTrackerFrontEnd/static/js/main.ccf59550.js",
     "static/js/377.2f345593.chunk.js": "/TaskTrackerFrontEnd/static/js/377.2f345593.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/TaskTrackerFrontEnd/index.html",
     "main.5e4760d6.css.map": "/TaskTrackerFrontEnd/static/css/main.5e4760d6.css.map",
-    "main.27dea178.js.map": "/TaskTrackerFrontEnd/static/js/main.27dea178.js.map",
+    "main.ccf59550.js.map": "/TaskTrackerFrontEnd/static/js/main.ccf59550.js.map",
     "377.2f345593.chunk.js.map": "/TaskTrackerFrontEnd/static/js/377.2f345593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e4760d6.css",
-    "static/js/main.27dea178.js"
+    "static/js/main.ccf59550.js"
   ]
 }
