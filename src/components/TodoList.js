@@ -185,7 +185,7 @@ const TodoList = () => {
           </div>
         )}
 
-        {showAllTasks && (
+        {showAllTasks && taskList.length > 0 && (
           <div className="task">
             {taskList.map((obj, index) => (
               <Card
