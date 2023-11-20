@@ -36,7 +36,7 @@ const UserProfile = () => {
 
   const logout = ()=>{
       localStorage.removeItem('token')
-      return navigate('/Loginsignup')
+      return navigate('/TaskTrackerFrontEnd/Loginsignup')
   }
   return (
     <div className="container usercontainer pt-5">

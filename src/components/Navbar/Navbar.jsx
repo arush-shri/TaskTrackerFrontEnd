@@ -45,24 +45,24 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+              <Link className="nav-link active" aria-current="page" to="/TaskTrackerFrontEnd/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/About">
+              <Link className="nav-link" to="/TaskTrackerFrontEnd/About">
                 About
               </Link>
             </li>
             {isAuthenticated && (
               <>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Todo">
+                  <Link className="nav-link" to="/TaskTrackerFrontEnd/Todo">
                     Todo
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/UserProfile">
+                  <Link className="nav-link" to="/TaskTrackerFrontEnd/UserProfile">
                     User
                   </Link>
                 </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
             )}
             {!isAuthenticated && (
               <li className="nav-item">
-                <Link className="nav-link" to="/Loginsignup">
+                <Link className="nav-link" to="/TaskTrackerFrontEnd/Loginsignup">
                   SignUp/Login
                 </Link>
               </li>

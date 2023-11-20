@@ -17,15 +17,15 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path="/"
+          <Route exact path="/TaskTrackerFrontEnd"
             element={<Home/>}/>
-          <Route path="/About"
+          <Route path="/TaskTrackerFrontEnd/About"
             element={<About/>}/>
-          <Route path="/Todo"
+          <Route path="/TaskTrackerFrontEnd/Todo"
             element={<TodoList/>}/>
-          <Route path="/Loginsignup"
+          <Route path="/TaskTrackerFrontEnd/Loginsignup"
             element={<Loginsignup/>}/>
-            <Route path="/UserProfile"
+            <Route path="/TaskTrackerFrontEnd/UserProfile"
             element={<UserProfile/>}/>
         </Routes>
       </Router>

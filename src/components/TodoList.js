@@ -128,7 +128,7 @@ const TodoList = () => {
             <h3>See Upcoming Tasks</h3>
           </div>
           <div className="seetasks">
-            <button className="btn btn-secondary mt-2" onClick={() => setShowAllTasks(true)}>
+            <button className="btn btn-secondary mt-2" onClick={() => setShowAllTasks(!showAllTasks)}>
               See All Tasks
             </button>
           </div>

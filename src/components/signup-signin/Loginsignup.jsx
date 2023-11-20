@@ -37,7 +37,7 @@ const Loginsignup = () => {
         }, 1800);
       } else {
         localStorage.setItem('token', response.data.token);
-        return navigate("/Todo");
+        return navigate("/TaskTrackerFrontEnd/Todo");
       }
     } catch (error) {
       console.log(error);
@@ -59,7 +59,7 @@ const Loginsignup = () => {
         }, 1800);
       } else {
         localStorage.setItem('token', response.data.token);
-        return navigate("/Todo");
+        return navigate("/TaskTrackerFrontEnd/Todo");
       }
     } catch (error) {
       console.log(error);
