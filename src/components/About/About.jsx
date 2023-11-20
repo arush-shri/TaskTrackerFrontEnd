@@ -18,7 +18,7 @@ const About = () => {
         <div class="text-center card-box rounded-2 p-5 shadow">
           <img src="images/social.jpeg" alt="link" class="img-fluid"></img>
           <h5 class="my-3 fw-normal">Link Building</h5>
-          <p class="mb-5">We specialize in strategic link building, enhancing your website's authority and search engine rankings by securing high-quality, relevant backlinks from trusted sources.</p>
+          <p class="mb-5">Elevate your productivity with task tracker, the ultimate todo app with real-time notifications. Stay on top of your tasks effortlessly as our app delivers instant reminders, ensuring you never miss a deadline.</p>
           
         </div>
       </div>
@@ -36,7 +36,7 @@ const About = () => {
         <div class="text-center card-box rounded-2 p-5 shadow">
           <img src="images/social3.jpeg" alt="link" class="img-fluid"></img>
           <h5 class="my-3 fw-normal">Tailored Solutions</h5>
-          <p class="mb-5">Anjali Technicals provides personalized solutions designed to meet your unique needs, ensuring a perfect fit for your business objectives and will elevate your business.</p>
+          <p class="mb-5">Unlock a tailored solution for unparalleled productivity with task tracker. Our app offers personalized task management, coupled with real-time notifications, ensuring a customized experience that aligns perfectly with your workflow.</p>
           
         </div>
       </div>
@@ -54,7 +54,7 @@ const About = () => {
         <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-right">
           <h1 class="text-uppercase fw-bolder text-white">Cutting-Edge Technology</h1>
           <p class="mt-5 mb-3 para-width text-light-grey">
-            We stay at the forefront of technological advancements, offering you access to the latest tools and innovations for seamless business operations. We are committed to staying ahead of the curve when it comes to technological advancements. We understand that the business landscape is constantly evolving, and to help you thrive, we make it our mission to provide you with cutting-edge tools and innovations.
+           Introducing task tracker, the cutting-edge todo app designed to revolutionize your task management experience. With its advanced notification system, task tracker ensures that you never miss a beat. Imagine a seamless workflow where you are effortlessly reminded of your upcoming tasks in real-time. Whether it's project deadlines, important meetings, or daily to-dos, our app keeps you on track with prompt notifications that help you stay ahead of your schedule.
           </p>
           
         </div>
