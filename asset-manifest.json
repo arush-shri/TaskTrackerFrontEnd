@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TaskTrackerFrontEnd/static/css/main.5e4760d6.css",
-    "main.js": "/TaskTrackerFrontEnd/static/js/main.01ea6d88.js",
-    "static/js/377.2f345593.chunk.js": "/TaskTrackerFrontEnd/static/js/377.2f345593.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/TaskTrackerFrontEnd/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/TaskTrackerFrontEnd/index.html",
-    "main.5e4760d6.css.map": "/TaskTrackerFrontEnd/static/css/main.5e4760d6.css.map",
-    "main.01ea6d88.js.map": "/TaskTrackerFrontEnd/static/js/main.01ea6d88.js.map",
-    "377.2f345593.chunk.js.map": "/TaskTrackerFrontEnd/static/js/377.2f345593.chunk.js.map"
+    "main.css": "/static/css/main.c985462a.css",
+    "main.js": "/static/js/main.efdda9c4.js",
+    "static/js/377.2f345593.chunk.js": "/static/js/377.2f345593.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.c985462a.css.map": "/static/css/main.c985462a.css.map",
+    "main.efdda9c4.js.map": "/static/js/main.efdda9c4.js.map",
+    "377.2f345593.chunk.js.map": "/static/js/377.2f345593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e4760d6.css",
-    "static/js/main.01ea6d88.js"
+    "static/css/main.c985462a.css",
+    "static/js/main.efdda9c4.js"
   ]
 }
