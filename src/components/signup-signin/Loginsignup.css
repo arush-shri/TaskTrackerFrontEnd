@@ -43,6 +43,7 @@
     border-radius: 8px;
     border-color: gray;
     border-width: 1px;
+    padding-left: 5px;
 }
 .input{
     display: flex;

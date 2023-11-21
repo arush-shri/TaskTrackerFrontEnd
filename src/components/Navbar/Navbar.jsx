@@ -9,7 +9,6 @@ const Navbar = () => {
   const checkToken = () => {
     
     const token = localStorage.getItem('token');
-    console.log(isAuthenticated)
     if (token !== null) {
       setIsAuthenticated(true);
     } else {

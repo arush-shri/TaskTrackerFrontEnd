@@ -28,19 +28,28 @@ const Loginsignup = () => {
   };
 
   const handleSignup = async () => {
-    try {
-      const response = await axios.post('https://task-tracker-deploy.onrender.com/signinup/signup', userData);
-      if (typeof response.data === 'string') {
-        setErrorMessage('User already exists. Please choose a different email.');
-        setTimeout(() => {
-          setErrorMessage(null);
-        }, 1800);
-      } else {
-        localStorage.setItem('token', response.data.token);
-        return navigate("/TaskTrackerFrontEnd/Todo");
+    if(userData.age==="" || userData.email==="" || userData.password==="" || userData.phoneNum==="" || userData.uname===""){
+      setErrorMessage('Please provide necessary data');
+          setTimeout(() => {
+            setErrorMessage(null);
+          }, 1800);
+    }
+    else{
+      console.log(userData)
+      try {
+        const response = await axios.post('https://task-tracker-deploy.onrender.com/signinup/signup', userData);
+        if (typeof response.data === 'string') {
+          setErrorMessage('User already exists. Please choose a different email.');
+          setTimeout(() => {
+            setErrorMessage(null);
+          }, 1800);
+        } else {
+          localStorage.setItem('token', response.data.token);
+          return navigate("/TaskTrackerFrontEnd/Todo");
+        }
+      } catch (error) {
+        console.log(error);
       }
-    } catch (error) {
-      console.log(error);
     }
   };
 
@@ -81,30 +90,30 @@ const Loginsignup = () => {
         <div className="inputs">
           {action === 'Login' ? <div></div> : <div className="input">
             <FontAwesomeIcon icon={faUser} />
-            <input className='inputTaker' type="text" placeholder=' Name' name='uname' value={userData.uname} onChange={handleChange} />
+            <input className='inputTaker' type="text" placeholder=' Name' name='uname' value={userData.uname} onChange={handleChange} required/>
           </div>}
 
           <div className="input">
             <FontAwesomeIcon icon={faEnvelope} />
-            <input className='inputTaker' type="email" placeholder=' Email' name="email" value={userData.email} onChange={handleChange} />
+            <input className='inputTaker' type="email" placeholder=' Email' name="email" value={userData.email} onChange={handleChange} required/>
           </div>
 
           <div className="input">
             <FontAwesomeIcon icon={faLock} />
-            <input className='inputTaker' type="password" placeholder=' Password' name="password" value={userData.password} onChange={handleChange} />
+            <input className='inputTaker' type="password" placeholder=' Password' name="password" value={userData.password} onChange={handleChange} required/>
           </div>
 
           {action === 'Login' ? null : (
             <div className="input">
               <FontAwesomeIcon icon={faCalendarAlt} />
-              <input className='inputTaker' type="number" placeholder=' Age' name="age" value={userData.age} onChange={handleChange} />
+              <input className='inputTaker' type="number" placeholder=' Age' name="age" value={userData.age} onChange={handleChange} required/>
             </div>
           )}
 
           {action === 'Login' ? null : (
             <div className="input">
               <FontAwesomeIcon icon={faPhone} />
-              <input className='inputTaker' type="tel" placeholder=' Phone Number' name="phoneNum" value={userData.phoneNum} onChange={handleChange} />
+              <input className='inputTaker' type="tel" placeholder=' Phone Number' name="phoneNum" value={userData.phoneNum} onChange={handleChange} required/>
             </div>
           )}
 
